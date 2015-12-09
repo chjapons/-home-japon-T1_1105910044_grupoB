@@ -1,0 +1,44 @@
+Se pretende desarrollar un sistema de gestión para una empresa de alquiler de vehículos cuyas principales funcionalidades y características son las que a continuación se describen:
+
+• La empresa se dedica al alquiler de dos tipos de vehículos: furgonetas de carga y automóviles.
+
+• La empresa ofrece la posibilidad de realizar reservas de automóviles (no de furgonetas) a través de Internet. Para ello, el usuario utiliza la opción “Realizar Reserva” y el sistema le pide su login y password. Si el usuario no ha realizado ningún alquiler previo en la empresa debe registrarse como paso previo a la realización de la reserva. Para ello, elige la opción “Registrarse”, el sistema le pide sus datos personales (nombre, dni, dirección y dirección de correo electrónico) más el login y el password, y lo almacena en el sistema.
+
+• Una vez finalizado el registro, se puede pasar a realizar la reserva. El sistema pedirá las fechas inicial y final para las que desea el alquiler, así como las ciudades de recogida y devolución del vehículo. El sistema mostrará la relación de automóviles (marca, modelo, número máximo de ocupantes, motor y precio diario) disponibles en esas fechas, entre las que el cliente escogerá uno. El sistema almacena la reserva, identificada con un código del que el cliente debe tomar nota. El cliente podrá, posteriormente, acceder al sistema para consultar o cancelar su reserva, previa identificación en el sistema.
+
+• Para recoger el vehículo el cliente debe presentarse en las oficinas de la empresa y firmar el contrato de alquiler. Los empleados serán los encargados de registrar los contratos en el sistema, y se considera imprescindible que quede registrado qué empleado ha realizado cada contrato. Para guardar un contrato, el empleado elige la opción “Registrar Contrato”, e introduce el código de reserva que debe de facilitarle el cliente (si existe reserva previa). El sistema comprueba la validez de la reserva y genera el contrato correspondiente a los datos de la reserva.
+
+• En caso de que no exista reserva previa (el cliente puede acudir directamente a la oficina a alquilar un automóvil), el empleado introduce el dni del cliente (que debe estar previamente registrado), y los datos del alquiler deseado. El sistema muestra el listado de automóviles
+disponibles para las fechas y oficinas de recogida (oficina actual) y devolución deseadas. El empleado selecciona la opción elegida por el usuario, y se crea el contrato correspondiente.
+
+• Los contratos de alquiler de furgonetas de carga se hacen directamente en la empresa, puesto que como se dijo, no existe posibilidad de realizar reservas y además tienen características especiales. El empleado introduce los datos del alquiler, y el sistema consulta la disponibilidad de furgonetas. El sistema muestra la relación de furgonetas disponibles (marca, modelo, carga máxima, motor y precio diario) en esas fechas, y el cliente escoge una, para la cual se genera el contrato correspondiente.
+
+• El gerente de la empresa puede acceder al sistema para realizar diversas consultas e informes: flota de vehículos, listado de empleados, alquileres realizados en un determinado período de tiempo, globales o por empleado y alquileres realizados por un determinado cliente. Asimismo, es el encargado de gestionar las altas y bajas de vehículos en la flota de la
+empresa. 
+
+
+
+Análisis textual del caso.
+
+Nombre del proyecto: alquiler de vehículos
+
+items significativos:
+
+Empledo
+Gerente
+Cliente
+Registrar cliente
+Registrar contrato
+Realizar reserva
+Consultar reserva
+Registrar informacion
+
+Items
+Datos personales
+
+
+
+
+
+
+
